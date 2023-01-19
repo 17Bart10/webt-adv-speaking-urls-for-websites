@@ -1,15 +1,36 @@
-# WEBT | CORE | Working with JSON Server Responses in JavaScript
+# WEBT | ADV | Speaking URLs for websites
 
-## How to build and run TailwindCSS
-npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
+## Overview
+Apply this advanced user stories to a fitting CORE scenario of your choice.
+
+## User Story 1
+*As a Developer I want to setup a rewriting module on my webserver, so that I can rewrite urls.*
+
+### Acceptance Criteria
+- A rewrite module is installed and ready for use on the webserver
+
+## User Story 2
+*As a Developer I want to offer speaking URLs for all pages of my website, so that search engines rank the page higher.*
+
+### Acceptance Criteria
+- All pages of the website are reachable via speaking url, including parameters
 
 ## Updated Speaking URLs
 - http://dev.webt.local:8888/webt-core-working-with-json-server-responses-in-javascript/UserStoryOne
 - http://dev.webt.local:8888/webt-core-working-with-json-server-responses-in-javascript/UserStoryTwo
 - http://dev.webt.local:8888/webt-core-working-with-json-server-responses-in-javascript/UserStoryThree
 
+#### Links
+https://my.skilldisplay.eu/en/skillset/96
 
-## Core-Overview
+---
+
+# WEBT | CORE | Working with JSON Server Responses in JavaScript -> Base for Advanced
+
+## How to build and run TailwindCSS
+`npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch`
+
+## Overview
 The WIFI Vienna wants to help people who are unsatisfied with their job to choose a random new career path. They require an application which lets you define certain parameters and then presents users of the WebApp with a random job and details on training for it.
 
 ## User Story 1
