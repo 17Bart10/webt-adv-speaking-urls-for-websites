@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Core_Working_with_JSON_Server_Responses</title>
+    <script type="text/javascript" src="src/script.js"></script>
+    <link href="dist/output.css" rel="stylesheet" />
+  </head>
+  <body class="bg-slate-800">
+    <h1 class="text-white text-4xl font-bold text-center">Get random Career</h1>
+    <p class="text-white text-center">
+      Drücke den Knopf um einen zufälligen Job zu erhalten
+    </p>
+    <br />
+    <div class="flex items-center justify-center">
+      <btn
+        id="btn-job"
+        class="bg-blue-500 text-white font-bold py-2 px-4 rounded"
+      >
+        Get random career
+      </btn>
+    </div>
+    <div class="h-3"></div>
+    <div id="job-erg" class="text-white text-center text-2xl uppercase"></div>
+
+    <script>
+      const jobs = [
+        "Arzt",
+        "Lehrer",
+        "Tischler",
+        "Bäcker",
+        "Richter",
+        "Koch",
+        "Fotograf",
+      ];
+
+      function getRandomCareer() {
+        const rndm = Math.floor(Math.random() * jobs.length);
+        document.getElementById("job-erg").innerText = jobs[rndm];
+      }
+
+      const btn = document.getElementById("btn-job");
+      btn.addEventListener("click", getRandomCareer);
+    </script>
+  </body>
+</html>
