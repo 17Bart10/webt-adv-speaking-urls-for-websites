@@ -15,10 +15,29 @@ Apply this advanced user stories to a fitting CORE scenario of your choice.
 ### Acceptance Criteria
 - All pages of the website are reachable via speaking url, including parameters
 
-## Updated Speaking URLs
+## How to enable mod_rewrite
+- Open the XAMPP/MAMP Apache config File -> "MAMP/conf/apache/httpd.conf"
+- Find **`#LoadModule rewrite_module modules/mod_rewrite.so`**
+- Delete the "#"
+- Find all occourences of **`AllowOverride None`** change it to **`AllowOverride All`**
+- Add an `.htaccess` File
+- .htacces content  
+```
+RewriteEngine on  
+RewriteRule ^my-old-url.html$ /my-new-url.html [R=301,L]
+```
+- Syntax for `.htaccess` `RewriteRule Pattern Substitution [Optional Flags]`
+- At last restart the Apache Server (XAMPP/MAMP)  
+- Based on the tutorials
+- https://www.elated.com/mod-rewrite-tutorial-for-absolute-beginners/
+- https://ubiq.co/tech-blog/how-to-enable-mod_rewrite-in-xampp-wamp/
+
+## Updated URLs
 - http://dev.webt.local:8888/webt-core-working-with-json-server-responses-in-javascript/UserStoryOne
 - http://dev.webt.local:8888/webt-core-working-with-json-server-responses-in-javascript/UserStoryTwo
 - http://dev.webt.local:8888/webt-core-working-with-json-server-responses-in-javascript/UserStoryThree
+- http://dev.webt.local:8888/webt-core-working-with-json-server-responses-in-javascript/UserStoryFour
+
 
 #### Links
 https://my.skilldisplay.eu/en/skillset/96
@@ -66,3 +85,7 @@ The WIFI Vienna wants to help people who are unsatisfied with their job to choos
 
 #### Links
 https://my.skilldisplay.eu/en/skillset/83
+
+
+
+

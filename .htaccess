@@ -1,7 +1,7 @@
 RewriteEngine on
 
-RewriteRule ^UserStoryOne$ src/storyOne.html 
-RewriteRule ^UserStoryTwo$ src/storyTwo.html 
-RewriteRule ^UserStoryThree$ src/storyThree.html 
+RewriteRule ^UserStoryOne$ src/storyOne.html
+RewriteRule ^UserStoryTwo$ src/storyTwo.html
+RewriteRule ^UserStoryThree$ src/storyThree.html
 RewriteRule ^UserStoryFour$ indexTester.html
-RewriteRule ^old$ indexOld.html 
+RewriteRule ^old$ indexOld.html
