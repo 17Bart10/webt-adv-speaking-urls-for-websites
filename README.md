@@ -23,8 +23,9 @@ Apply this advanced user stories to a fitting CORE scenario of your choice.
 - Add an `.htaccess` File
 - .htacces content  
 ```
-RewriteEngine on  
-RewriteRule ^my-old-url.html$ /my-new-url.html [R=301,L]
+RewriteEngine on
+#RewriteRule Pattern Substitution [Optional Flags]
+RewriteRule ^my-old-url.html$ /my-new-url.html
 ```
 - Syntax for `.htaccess` `RewriteRule Pattern Substitution [Optional Flags]`
 - At last restart the Apache Server (XAMPP/MAMP)  
