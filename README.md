@@ -29,9 +29,9 @@ RewriteRule ^my-old-url.html$ /my-new-url.html
 ```
 - Syntax for `.htaccess` `RewriteRule Pattern Substitution [Optional Flags]`
 - At last restart the Apache Server (XAMPP/MAMP)  
-- Based on the tutorials
-- https://www.elated.com/mod-rewrite-tutorial-for-absolute-beginners/
-- https://ubiq.co/tech-blog/how-to-enable-mod_rewrite-in-xampp-wamp/
+- Based on the tutorials:
+    - https://www.elated.com/mod-rewrite-tutorial-for-absolute-beginners/
+    - https://ubiq.co/tech-blog/how-to-enable-mod_rewrite-in-xampp-wamp/
 
 ## Updated URLs
 - http://dev.webt.local:8888/webt-core-working-with-json-server-responses-in-javascript/UserStoryOne
